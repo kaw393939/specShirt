@@ -1,0 +1,101 @@
+[
+  {
+    "id": "BRIEF",
+    "title": "Project brief",
+    "path": "strategy/project-brief",
+    "status": "In review",
+    "reviewIssue": 1,
+    "approvedRevision": null,
+    "approvalUrl": null
+  },
+  {
+    "id": "BRAND",
+    "title": "Brand strategy",
+    "path": "strategy/brand",
+    "status": "In review",
+    "reviewIssue": 2,
+    "approvedRevision": null,
+    "approvalUrl": null
+  },
+  {
+    "id": "MARKETING",
+    "title": "Content and persuasion",
+    "path": "strategy/marketing",
+    "status": "In review",
+    "reviewIssue": 3,
+    "approvedRevision": null,
+    "approvalUrl": null
+  },
+  {
+    "id": "UX",
+    "title": "Pages and shopping flow",
+    "path": "experience/user-experience",
+    "status": "In review",
+    "reviewIssue": 4,
+    "approvedRevision": null,
+    "approvalUrl": null
+  },
+  {
+    "id": "DESIGN",
+    "title": "Design system",
+    "path": "experience/design-system",
+    "status": "In review",
+    "reviewIssue": 5,
+    "approvedRevision": null,
+    "approvalUrl": null
+  },
+  {
+    "id": "FUNCTIONAL",
+    "title": "Functional requirements",
+    "path": "requirements/functional",
+    "status": "In review",
+    "reviewIssue": 6,
+    "approvedRevision": null,
+    "approvalUrl": null
+  },
+  {
+    "id": "TRACE",
+    "title": "Requirement traceability",
+    "path": "requirements/traceability",
+    "status": "In review",
+    "reviewIssue": 7,
+    "approvedRevision": null,
+    "approvalUrl": null
+  },
+  {
+    "id": "TECH",
+    "title": "Technical architecture",
+    "path": "delivery/architecture",
+    "status": "In review",
+    "reviewIssue": 8,
+    "approvedRevision": null,
+    "approvalUrl": null
+  },
+  {
+    "id": "WORKFLOW",
+    "title": "Review and delivery workflow",
+    "path": "delivery/workflow",
+    "status": "In review",
+    "reviewIssue": 9,
+    "approvedRevision": null,
+    "approvalUrl": null
+  },
+  {
+    "id": "DECISIONS",
+    "title": "Decision log",
+    "path": "delivery/decisions",
+    "status": "In review",
+    "reviewIssue": 10,
+    "approvedRevision": null,
+    "approvalUrl": null
+  },
+  {
+    "id": "TESTS",
+    "title": "Acceptance and verification",
+    "path": "delivery/verification",
+    "status": "In review",
+    "reviewIssue": 11,
+    "approvedRevision": null,
+    "approvalUrl": null
+  }
+]

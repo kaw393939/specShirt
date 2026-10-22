@@ -1,0 +1,31 @@
+name: Implementation task
+description: Implement approved requirements with traceable verification.
+title: "[Feature] "
+body:
+  - type: input
+    id: requirements
+    attributes:
+      label: Requirement IDs and specification links
+      placeholder: CART-01 — published specification URL and anchor
+    validations:
+      required: true
+  - type: input
+    id: approval
+    attributes:
+      label: Approval evidence
+      description: Link the owner approval comment and approved revision.
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope and dependencies
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance and verification
+      description: Observable outcomes and evidence needed to verify completion.
+    validations:
+      required: true

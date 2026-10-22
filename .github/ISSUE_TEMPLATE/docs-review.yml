@@ -1,0 +1,30 @@
+name: Documentation review
+description: Discuss a specification or request a documentation correction.
+title: "[Docs] "
+body:
+  - type: input
+    id: document
+    attributes:
+      label: Document
+      description: Published page URL and document ID or requirement anchor.
+    validations:
+      required: true
+  - type: input
+    id: revision
+    attributes:
+      label: Revision
+      description: Commit SHA or source permalink being reviewed.
+    validations:
+      required: true
+  - type: textarea
+    id: feedback
+    attributes:
+      label: Feedback and proposed change
+      description: Name the section, explain the concern, and suggest a change. Link the canonical review issue for follow-up corrections.
+    validations:
+      required: true
+  - type: textarea
+    id: decision
+    attributes:
+      label: Decision record
+      description: The project owner records approval with a specific revision in a comment. Closure alone is not approval.
