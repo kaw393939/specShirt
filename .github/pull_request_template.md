@@ -1,16 +1,10 @@
-## Outcome
-Describe the problem and resulting behavior.
+## What changed?
+Explain the change in a sentence or two.
 
-## Traceability
-- Requirement IDs / document IDs:
-- Specification links:
-- Review discussion and approval revision (for storefront work):
-- Implementation issue (use `Closes #N`; do not auto-close canonical review issues):
+## Which task or plan does this follow?
+Link the issue and plan page. For a coding task, include its checklist reference (for example CART-01).
 
-## Verification
-Describe the checks and their results. Include screenshots for visual changes when useful.
+## How did you check it?
+Describe what you tried and what happened. Add a screenshot if it helps.
 
-## Documentation
-- [ ] Affected specifications and traceability updated
-- [ ] Substantive spec changes returned to In review
-- [ ] No unapproved storefront behavior introduced
+- [ ] I updated the plan or checklist if needed.

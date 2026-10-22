@@ -1,36 +1,26 @@
----
-layout: home
-hero:
-  name: White Shirt
-  text: Start with the specification.
-  tagline: A review workspace for the brand, the experience, and the decisions behind one plain white T-shirt.
-  actions:
-    - theme: brand
-      text: Review the documents
-      link: /review
-    - theme: alt
-      text: Read the project brief
-      link: /strategy/project-brief
-features:
-  - title: Define the brand
-    details: Agree on the audience, archetype, promise, and evidence before designing the storefront.
-    link: /strategy/brand
-  - title: Review in GitHub
-    details: Each specification has a linked discussion. Decisions and explicit revision approvals stay visible.
-    link: /delivery/workflow
-  - title: Follow the requirement
-    details: Connect specifications to implementation issues, pull requests, code, and verification.
-    link: /requirements/traceability
----
+# Let’s plan our T-shirt website
 
-## Current phase
+We’re creating a brand that sells one plain white T-shirt. Before writing the store’s code, we’ll agree on what it should say and do.
 
-**Documentation foundation.** The storefront has not been built. Initial specifications are working drafts; no document has been approved yet.
+**A specification is simply a written plan.** This site holds our plan. GitHub issues are where we talk about it.
 
-## Start your review
+## Follow these three steps
 
-1. Read the [project brief](./strategy/project-brief) and [brand alternatives](./strategy/brand).
-2. Open a document’s review issue and comment on questions or proposed changes.
-3. Resolve the [open decisions](./delivery/decisions#open-decisions), then approve a specific revision using the [review workflow](./delivery/workflow).
+| Step | What we’ll decide | Where to start |
+| --- | --- | --- |
+| **1. Choose the brand** | Who is the shirt for, and what makes it special? | [Read the brand ideas](./brand) |
+| **2. Plan the pages** | What will visitors see and do? | [Read the website plan](./site-plan) |
+| **3. Agree on the checklist** | How will we know the site works? | [Read the checklist](./build-checklist) |
 
-[Open the full review queue →](./review)
+## Your first task
+
+Start with **[1. Choose the brand](./brand)**. Read the three options and click **Share feedback**. Tell us which option you prefer and why. You don’t need to review everything at once.
+
+## What we already know
+
+- We’ll use Vite to build the store and GitHub Pages to publish it.
+- The store will run in the browser without a backend server.
+- Checkout will be pretend: no real payments or orders.
+- This documentation site uses VitePress. The store has not been built yet.
+
+New to GitHub? [How we work](./working-together) explains the few terms you’ll need.

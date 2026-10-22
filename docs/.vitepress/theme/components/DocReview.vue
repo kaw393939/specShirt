@@ -4,18 +4,13 @@ import documents from '../../documents.json'
 import project from '../../project.json'
 const props = defineProps({ id: { type: String, required: true } })
 const doc = computed(() => documents.find(d => d.id === props.id))
-const repo = `https://github.com/${project.repository}`
-const correction = computed(() => `${repo}/issues/new?template=docs-review.yml&title=${encodeURIComponent(`[Docs] ${props.id}: `)}&document=${encodeURIComponent(doc.value.path)}&revision=${encodeURIComponent('See the page source and commit history')}`)
 </script>
 <template>
-  <aside v-if="doc" class="review-panel" aria-label="Document review">
-    <div><span class="status">{{ doc.status }}</span> <strong>{{ doc.id }}</strong> · Implementation tracked separately</div>
-    <p v-if="doc.status !== 'Approved'">Working specification. Review and approval are required before implementing its proposed storefront behavior.</p>
-    <p v-else>Approved revision: <code>{{ doc.approvedRevision }}</code> · <a :href="doc.approvalUrl">Approval record</a></p>
-    <div class="review-links">
-      <a v-if="doc.reviewIssue" :href="`${repo}/issues/${doc.reviewIssue}`">Review discussion #{{ doc.reviewIssue }}</a>
-      <span v-else>Review discussion pending setup</span>
-      <a :href="correction">Suggest a correction</a>
-    </div>
+  <aside v-if="doc" class="review-panel" aria-label="Discuss this plan">
+    <strong>{{ doc.status === 'Approved' ? 'Agreed plan' : 'Let’s discuss this step' }}</strong>
+    <p v-if="doc.status !== 'Approved'">This is a draft. Read it, then share your ideas or questions in GitHub.</p>
+    <p v-else>We have agreed on this step. Discuss changes before building something different.</p>
+    <a :href="`https://github.com/${project.repository}/issues/${doc.reviewIssue}`">{{ doc.status === 'Approved' ? 'Read our discussion' : 'Share feedback' }} →</a>
+    <p v-if="doc.approvalUrl"><a :href="doc.approvalUrl">Read the approval</a></p>
   </aside>
 </template>

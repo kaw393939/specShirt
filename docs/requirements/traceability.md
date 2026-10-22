@@ -1,20 +1,30 @@
-# Requirement traceability
+---
+search: false
+sidebar: false
+outline: false
+---
+# This page has moved
 
-<DocReview id="TRACE" />
+We’ve simplified the project into three steps.
 
-## How to use this index
-This table links each proposed behavior to its specification and eventual implementation. “Planned” does not imply approval. Add real issue, pull request, code, and verification links when they exist; do not invent them.
+[Read the current guide →](../build-checklist)
 
-| ID | Specification | Implementation issue | PR / code | Verification | Delivery |
-| --- | --- | --- | --- | --- | --- |
-| CART-01 | [Add a shirt](./functional#cart-01) | Not created | Not built | Not run | Planned |
-| CART-02 | [Persist and edit](./functional#cart-02) | Not created | Not built | Not run | Planned |
-| CHECKOUT-01 | [Demo checkout](./functional#checkout-01) | Not created | Not built | Not run | Planned |
-| SEO-01 | [Discoverability](./functional#seo-01) | Not created | Not built | Not run | Planned |
-| A11Y-01 | [Accessibility](./functional#a11y-01) | Not created | Not built | Not run | Planned |
+## Choose a shirt {#cart-01}
 
-## Linking policy
-Implementation issues link to stable requirement anchors. Pull requests link issues and requirement IDs, update affected specifications, and supply verification evidence. Code links should use a commit permalink for reviewed evidence. Use requirement IDs in meaningful test names; avoid scattering redundant comments through code.
+[Read the current checklist →](../build-checklist#cart-01)
 
-## Delivery states
-Planned → In progress → Implemented → Verified. A merged change becomes Verified only when its acceptance evidence is recorded.
+## Update the bag {#cart-02}
+
+[Read the current checklist →](../build-checklist#cart-02)
+
+## Demo checkout {#checkout-01}
+
+[Read the current checklist →](../build-checklist#checkout-01)
+
+## Public pages {#seo-01}
+
+[Read the current checklist →](../build-checklist#seo-01)
+
+## Usability {#a11y-01}
+
+[Read the current checklist →](../build-checklist#a11y-01)

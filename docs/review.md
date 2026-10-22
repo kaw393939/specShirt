@@ -1,7 +1,13 @@
-# Review queue
+---
+search: false
+sidebar: false
+---
+# Start with one step
 
-Read a specification, then open its linked GitHub issue to discuss it. All initial documents are drafts. Start with the brief and brand strategy; those decisions shape the remaining pages.
+We’ve replaced the review queue with three short steps. Each one has a **Share feedback** link.
 
-Status is recorded in the repository and updated through a pull request. GitHub issue closure does not automatically approve a specification. [Read the approval process](./delivery/workflow).
+1. [Choose the brand](./brand).
+2. [Plan the pages](./site-plan).
+3. [Agree on the checklist](./build-checklist).
 
-<ReviewQueue />
+[Start here →](./index)

@@ -1,11 +1,11 @@
 # Project instructions
 
-This is a specification-first educational white T-shirt brand project.
+This is an educational white T-shirt website project for college freshmen. Keep explanations and workflows simple.
 
-- Current phase: documentation foundation. Do not implement the storefront until the user approves its specification scope through the documented GitHub issue process or directly authorizes it.
-- Use VitePress for docs, GitHub Pages for static hosting, and linked GitHub issues for review.
-- Read docs/delivery/workflow.md and docs/delivery/decisions.md before changing requirements or implementation.
-- Keep document review status separate from delivery status. Never infer approval from a closed issue or merged PR.
-- Keep stable requirement IDs, issue links, and verification evidence connected in docs/requirements/traceability.md.
-- Run npm run docs:build for documentation changes. Do not commit node_modules or generated site output.
-- Storefront checkout is simulated. No real payments, personal information collection, invented endorsements, or fake urgency.
+- Current phase: agree on the plan before building the storefront. Do not implement storefront features until the user approves the relevant plan or directly authorizes the work.
+- Read docs/working-together.md before changing the workflow. The three plan pages are docs/brand.md, docs/site-plan.md, and docs/build-checklist.md.
+- Use VitePress for docs, GitHub Pages for hosting, and three linked GitHub issues for plan discussions. Avoid adding paperwork or a new review issue for every document section.
+- Keep proposed plans distinct from approved plans and implemented behavior. Never infer approval from closing an issue. Link the owner's approval comment when marking a plan approved.
+- Keep stable feature references and issue/PR/results links in docs/build-checklist.md. Preserve older published documentation URLs as short moved-page notices excluded from search and navigation.
+- Run npm run docs:build for documentation changes. Do not commit node_modules or generated output.
+- The storefront will use Vite and simulated checkout. No real payments, personal information collection, invented endorsements, or fake urgency.

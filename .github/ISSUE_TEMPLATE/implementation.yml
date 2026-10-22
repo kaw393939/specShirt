@@ -1,31 +1,24 @@
-name: Implementation task
-description: Implement approved requirements with traceable verification.
-title: "[Feature] "
+name: Build a feature
+description: Plan one coding task after we agree on the website plan.
 body:
   - type: input
-    id: requirements
+    id: plan
     attributes:
-      label: Requirement IDs and specification links
-      placeholder: CART-01 — published specification URL and anchor
-    validations:
-      required: true
-  - type: input
-    id: approval
-    attributes:
-      label: Approval evidence
-      description: Link the owner approval comment and approved revision.
+      label: Link to the checklist section
+      placeholder: For example, Choose a shirt (CART-01).
     validations:
       required: true
   - type: textarea
-    id: scope
+    id: task
     attributes:
-      label: Scope and dependencies
+      label: What should we build?
+      description: Describe what the visitor should be able to do.
     validations:
       required: true
   - type: textarea
-    id: acceptance
+    id: check
     attributes:
-      label: Acceptance and verification
-      description: Observable outcomes and evidence needed to verify completion.
+      label: How will we check it works?
+      description: List a few actions to try and what should happen.
     validations:
       required: true
